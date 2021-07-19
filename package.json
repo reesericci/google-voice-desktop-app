@@ -1,10 +1,10 @@
 {
  "name": "voice-desktop-app",
- "version": "1.1.8",
+ "version": "1.1.9",
  "description": "An electron shell wrapper for the google voice app",
  "main": "src/main.js",
  "build": {
-  "appId": "com.jerrkawz.voiceDesktop",
+  "appId": "com.reesericci.voiceDesktop",
   "productName": "Voice Desktop",
   "mac": {
    "category": "public.app-category.social-networking"
@@ -34,7 +34,7 @@
   "desktop",
   "google"
  ],
- "author": "jllankfo@ncsu.edu",
+ "author": "reesericci",
  "license": "ISC",
  "dependencies": {
   "electron-context-menu": "^2.5.0",
