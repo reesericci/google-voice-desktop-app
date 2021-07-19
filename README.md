@@ -1,3 +1,10 @@
+# google-voice-desktop-app fork
+
+## Why a fork?
+I forked this project because I saw a lot of cool PR's that weren't getting merged, so I built a fork with them included.
+
+___
+
 ## Why
 I'm annoyed at the lack of desktop app for voice, like hangouts had.
 
@@ -27,29 +34,14 @@ New in 1.1 we now have different themes! You can change your theme by clicking o
 Not only themes but also a system for themeing! If you want to create your own theme and contribute back to the project you can do that [here](THEMES.md)
 
 ## Run From Source
-`git clone git@github.com:Jerrkawz/google-voice-desktop-app.git`
+`git clone https://github.com/reesericci/google-voice-desktop-app.git`
 
 `npm install`
 
-`npm start`
+`electron .`
 
 To build yourself you can run
-`npm run build:windows` or `npm run build:mac` or `npm run build:linux`
-
-## Screenshots
-![Windows](/screenshots/windows.png?raw=true)
-
-Dracula Theme:
-![Dracula](/screenshots/dracula.png?raw=true)
-
-Solar Theme:
-![Solar](/screenshots/solar.png?raw=true)
-
-Minty Theme:
-![Minty](/screenshots/minty.png?raw=true)
-
-Cerulean Theme:
-![Cerulean](/screenshots/cerulean.png?raw=true)
+`electron-builder --linux` or `electron-builder --mac` or `electron-builder --windows`
 
 ## Attributions
 <div>Customize Icon made by <a href="https://www.flaticon.com/authors/dmitri13" title="dmitri13">dmitri13</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
